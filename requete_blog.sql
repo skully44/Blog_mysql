@@ -1,4 +1,4 @@
--- Page Accueil
+-- Affichage Page Accueil
 
 SELECT DATE_FORMAT(Article.date_publication, '%d/%m/%Y') AS Date_article, Utilisateur.pseudo AS Auteur,titre,resume AS Extrait_article, COUNT(Commentaire.id) AS nb_commentaire
 FROM Article
